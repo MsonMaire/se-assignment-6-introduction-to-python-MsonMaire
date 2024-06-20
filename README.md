@@ -5,17 +5,17 @@ Assignment: Introduction to Python
 1. Python Basics:
 Python is a high-level, interpreted programming language known for its simplicity and readability. Some key features include:
 
-Easy to Learn and Use: Python's syntax is clear and expressive, making it accessible for beginners.
-Versatility: Python supports multiple programming paradigms (procedural, object-oriented, functional) and has a vast standard library.
-Community and Support: It has a large community of developers contributing libraries and frameworks.
-Use Cases: Python is used in web development (Django, Flask), data analysis (Pandas, NumPy), artificial intelligence (TensorFlow, PyTorch), and automation (scripting).
+- Easy to Learn and Use: Python's syntax is clear and expressive, making it accessible for beginners.
+- Versatility: Python supports multiple programming paradigms (procedural, object-oriented, functional) and has a vast standard library.
+- Community and Support: It has a large community of developers contributing libraries and frameworks.
+- Use Cases: Python is used in web development (Django, Flask), data analysis (Pandas, NumPy), artificial intelligence (TensorFlow, PyTorch), and automation (scripting).
 
 2. Installing Python:
 To install Python:
 
-Windows: Download the installer from python.org, run it, and select "Add Python to PATH". Verify with python --version in Command Prompt. Use python -m venv env_name to set up a virtual environment.
-macOS: Install via Homebrew (brew install python) or download from python.org. Verify with python3 --version in Terminal. Use python3 -m venv env_name for a virtual environment.
-Linux: Use the package manager (e.g., apt, yum) to install Python. Verify with python3 --version in the terminal. Use python3 -m venv env_name for a virtual environment.
+- Windows: Download the installer from python.org, run it, and select "Add Python to PATH". Verify with python --version in Command Prompt. Use python -m venv env_name to set up a virtual environment.
+- macOS: Install via Homebrew (brew install python) or download from python.org. Verify with python3 --version in Terminal. Use python3 -m venv env_name for a virtual environment.
+- Linux: Use the package manager (e.g., apt, yum) to install Python. Verify with python3 --version in the terminal. Use python3 -m venv env_name for a virtual environment.
 
 3. Python Syntax and Semantics:
 
@@ -30,11 +30,10 @@ print() is a built-in function to output text.
 4. Data Types and Variables:
 Basic data types in Python:
 
-Integer (int): Whole numbers.
-Float (float): Numbers with a decimal point.
-String (str): Ordered sequence of characters.
-Boolean (bool): True or False.
-python
+- Integer (int): Whole numbers.
+- Float (float): Numbers with a decimal point.
+- String (str): Ordered sequence of characters.
+- Boolean (bool): True or False.
 
 data_types.py
 
