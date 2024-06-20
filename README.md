@@ -19,7 +19,7 @@ Linux: Use the package manager (e.g., apt, yum) to install Python. Verify with p
 
 3. Python Syntax and Semantics:
 
-# hello_world.py
+hello_world.py
 print("Hello, World!")
 
 Explanation:
