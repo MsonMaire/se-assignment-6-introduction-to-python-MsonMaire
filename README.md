@@ -20,6 +20,7 @@ Linux: Use the package manager (e.g., apt, yum) to install Python. Verify with p
 3. Python Syntax and Semantics:
 
 hello_world.py
+
 print("Hello, World!")
 
 Explanation:
@@ -35,31 +36,36 @@ String (str): Ordered sequence of characters.
 Boolean (bool): True or False.
 python
 
-# data_types.py
-num = 10
-pi = 3.14
-name = "Alice"
-is_python_fun = True
+data_types.py
+
+   num = 10
+   pi = 3.14
+   name = "Alice"
+   is_python_fun = True
 
 5. Control Structures:
 Conditional statements (if-else):
 
-# conditional.py
-age = 20
-if age >= 18:
-    print("You are an adult.")
-else:
-    print("You are a minor.")
+conditional.py
+
+   age = 20
+      if age >= 18:
+   print("You are an adult.")
+      else:
+   print("You are a minor.")
+
 Loops (for loop):
 
-# loops.py
+loops.py
+
 for i in range(1, 5):
     print(i)
 
 6. Functions in Python:
 Functions are reusable blocks of code. They improve code organization and reuse.
 
-# sum_function.py
+sum_function.py
+
 def add_numbers(a, b):
     return a + b
 
@@ -70,17 +76,18 @@ print("Sum:", result)
 Lists: Ordered collection of items.
 Dictionaries: Key-value pairs.
 
-# lists_and_dicts.py
+lists_and_dicts.py
+
 numbers = [1, 2, 3, 4]
 person = {'name': 'Alice', 'age': 25}
-
 print(numbers[0])  # Accessing list element
 print(person['name'])  # Accessing dictionary value
 
 8. Exception Handling:
 Exception handling manages errors gracefully.
 
-# exception_handling.py
+exception_handling.py
+
 try:
     x = 1 / 0
 except ZeroDivisionError:
@@ -92,23 +99,24 @@ finally:
 Modules: Python files containing functions, classes, and variables.
 Packages: Collection of modules organized in directories.
 
-# using_math_module.py
-import math
+using_math_module.py
 
+import math
 print(math.sqrt(25))  # Example of using math module function
 
 10. File I/O:
 Reading from a file:
 
-# read_file.py
+read_file.py
+
 with open('example.txt', 'r') as file:
     content = file.read()
     print(content)
 Writing to a file:
 
-# write_file.py
-data = ["Apple", "Banana", "Cherry"]
+write_file.py
 
+data = ["Apple", "Banana", "Cherry"]
 with open('fruits.txt', 'w') as file:
     for fruit in data:
         file.write(fruit + '\n')
