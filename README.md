@@ -18,10 +18,10 @@ macOS: Install via Homebrew (brew install python) or download from python.org. V
 Linux: Use the package manager (e.g., apt, yum) to install Python. Verify with python3 --version in the terminal. Use python3 -m venv env_name for a virtual environment.
 
 3. Python Syntax and Semantics:
-python
-Copy code
+
 # hello_world.py
 print("Hello, World!")
+
 Explanation:
 print() is a built-in function to output text.
 "Hello, World!" is a string literal enclosed in double quotes.
@@ -34,7 +34,7 @@ Float (float): Numbers with a decimal point.
 String (str): Ordered sequence of characters.
 Boolean (bool): True or False.
 python
-Copy code
+
 # data_types.py
 num = 10
 pi = 3.14
@@ -44,8 +44,6 @@ is_python_fun = True
 5. Control Structures:
 Conditional statements (if-else):
 
-python
-Copy code
 # conditional.py
 age = 20
 if age >= 18:
@@ -54,8 +52,6 @@ else:
     print("You are a minor.")
 Loops (for loop):
 
-python
-Copy code
 # loops.py
 for i in range(1, 5):
     print(i)
@@ -63,8 +59,6 @@ for i in range(1, 5):
 6. Functions in Python:
 Functions are reusable blocks of code. They improve code organization and reuse.
 
-python
-Copy code
 # sum_function.py
 def add_numbers(a, b):
     return a + b
@@ -75,8 +69,7 @@ print("Sum:", result)
 7. Lists and Dictionaries:
 Lists: Ordered collection of items.
 Dictionaries: Key-value pairs.
-python
-Copy code
+
 # lists_and_dicts.py
 numbers = [1, 2, 3, 4]
 person = {'name': 'Alice', 'age': 25}
@@ -87,8 +80,6 @@ print(person['name'])  # Accessing dictionary value
 8. Exception Handling:
 Exception handling manages errors gracefully.
 
-python
-Copy code
 # exception_handling.py
 try:
     x = 1 / 0
@@ -100,8 +91,7 @@ finally:
 9. Modules and Packages:
 Modules: Python files containing functions, classes, and variables.
 Packages: Collection of modules organized in directories.
-python
-Copy code
+
 # using_math_module.py
 import math
 
@@ -110,16 +100,12 @@ print(math.sqrt(25))  # Example of using math module function
 10. File I/O:
 Reading from a file:
 
-python
-Copy code
 # read_file.py
 with open('example.txt', 'r') as file:
     content = file.read()
     print(content)
 Writing to a file:
 
-python
-Copy code
 # write_file.py
 data = ["Apple", "Banana", "Cherry"]
 
@@ -127,6 +113,7 @@ with open('fruits.txt', 'w') as file:
     for fruit in data:
         file.write(fruit + '\n')
 
-Sources/ References
-Python.org
-ChatGPT
+**Sources/ References**
+
+- Python.org
+- ChatGPT
